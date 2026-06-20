@@ -15,5 +15,5 @@ Este documento clasifica los activos críticos almacenados en la estructura de d
 
 ![captura](./assests/imagen.png)
 ![Gitadd](./assests/gitadd.png)
-![Gitcomit](./assests/gitcommit.png)
+![Gitcomit](./assests/gitcomit.png)
 ![push](./assests/gitpush.png)
