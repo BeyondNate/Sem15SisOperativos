@@ -49,3 +49,20 @@ Se aplicó una restricción de permisos a `640` (rw-r-----), asegurando que solo
 chmod 640 empresa/finanzas/planilla.xlsx
 chmod 640 empresa/rrhh/empleados.csv
 ```
+
+# Informe de Hallazgos de Auditoría - Gestión de Seguridad
+
+Este documento detalla las no conformidades detectadas en el sistema y las recomendaciones para su mitigación.
+
+| Hallazgo | Evidencia | Riesgo | Recomendación |
+| :--- | :--- | :--- | :--- |
+| **Contraseñas compartidas** | Identificación de usuarios utilizando credenciales comunes o compartidas. | Responsabilidad no trazable (No repudio) y compromiso de cuentas. | Implementar política de contraseñas individuales y uso de un gestor de identidades. |
+| **Permisos 777 en archivos** | Presencia de archivos sensibles con permisos de lectura/escritura/ejecución para todos. | Acceso no autorizado, modificación y posible escalada de privilegios. | Aplicar el principio de menor privilegio (máximo 640 o 600) y restringir por grupo. |
+| **Usuarios inactivos** | Existencia de cuentas de usuario sin actividad registrada en los últimos 90 días. | Puerta de entrada para atacantes; riesgo de acceso no autorizado mediante cuentas olvidadas. | Ejecutar un proceso de revisión trimestral para la desactivación y eliminación de cuentas. |
+
+---
+## Notas adicionales
+* **Criticidad:** Los hallazgos marcados requieren atención inmediata para cumplir con los controles de la norma ISO 27001.
+* **Seguimiento:** Se deberá verificar la implementación de las recomendaciones en la próxima auditoría interna.
+
+  
