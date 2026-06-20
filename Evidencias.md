@@ -13,7 +13,7 @@ Este documento clasifica los activos críticos almacenados en la estructura de d
 * **Confidencialidad:** Basada en el impacto de una posible brecha de seguridad.
 * **Riesgo:** Representa la amenaza principal a la tríada de la seguridad (Confidencialidad, Integridad y Disponibilidad).
 
-![Descripción de la imagen](imagen.png)
-![Descripción de la imagen](assets/gitadd.png)
-![Descripción de la imagen](assets/gitcommit.png)
-![Descripción de la imagen](assets/gitpush.png)
+![captura](imagen.png)
+![Gitadd](assets/gitadd.png)
+![Gitcomit](assets/gitcommit.png)
+![push](assets/gitpush.png)
