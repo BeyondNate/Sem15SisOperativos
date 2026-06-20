@@ -37,6 +37,14 @@ Se identificó una configuración insegura en los archivos críticos del sistema
 ## 3. Acciones de Corrección
 Se aplicó una restricción de permisos a `640` (rw-r-----), asegurando que solo el propietario y el grupo tengan acceso a la lectura y escritura, bloqueando el acceso a otros usuarios.
 
+![push](./assests/elgitact2.png)
+![push](./assests/cmmod.png)
+![push](./assests/ls.png)
+![push](./assests/chmod640.png)
+![push](./assests/nano.png)
+
+
+
 ```bash
 chmod 640 empresa/finanzas/planilla.xlsx
 chmod 640 empresa/rrhh/empleados.csv
